@@ -1,0 +1,37 @@
+.video-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.audio-container {
+  display: none;
+}
+
+.align-left {
+  display: inline-block;
+  text-align: left;
+}
+
+.c-CCCCCC {
+  color: #cccccc !important;
+}
+.c-E5E5E5 {
+  color: #e5e5e5 !important;
+}
+
+.past {
+  color: #9900ff;
+}
+.future {
+  color: #ff9900;
+}
+
+.mejs__captions-text,
+.mejs__captions-text * {
+  white-space: initial !important;
+}
